@@ -1,0 +1,162 @@
+/*Mobile First (muotoillaan html-sivu ensin mobiili-näkymään ja sitten mahdollisi*/
+html {
+  font-size: 62.5%; /* base font size: 62.5% x 16px = 10px */
+}
+body {
+  margin: 1rem;
+  font-family: "Tilt Neon", cursive;
+}
+h1, 
+h2,
+h3, 
+p, 
+pre,
+ul,
+section {
+    margin-block-end: 1rem;
+} 
+section {
+  background-color: #bbddee;
+  padding: 1rem;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.8rem ;
+}
+h3 {
+  font-size: 2.4rem;
+}
+p {
+  font-size: 1.6rem;
+}
+pre {
+  font-size:  1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+  padding-inline-start: 2rem;
+}
+ul {
+  font-size:  1.6rem;
+ }
+ /*CLASS-tyyppiset säännöt */
+ .iso-kirjain {
+    background-color: #568;
+    float: left;
+    font-size: 500%;
+    width: 1.2em;
+    text-align: center;
+    padding: 0.1em 0.1em 0;
+    color: white;
+    border: solid white 1px;
+    border-width: 0 0.2em 0.2em 0;
+    margin: -1rem 0.5em 0.2em -1rem;
+ }
+ #pikkukuva-vasen-ylanurkka {
+    float: left;
+    /* margin: -1rem 2rem -1rem 2rem; */
+    margin: -1rem 2rem 2rem -1rem;
+    display: block; /* kuvasta responsiivinen */
+    width: 10rem; /* määrittelee kuvan leveydeksi 90px */
+    background-color: white;
+ }
+ #pikkukuva-vasen-ylanurkka img {
+    max-width: 100%;  /* kuvasta responsiivinen */
+ }
+
+ /* kolmannen osion bannerit */
+
+ .punch2 {
+  background-color: #88AABB;
+  margin-block-start: -1rem;
+  margin-inline-end: -1rem;
+  padding: 10px;
+  text-align: right;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+ }
+
+ .banner1 {
+   /*display: block;
+   float: left;
+   width: 40%;
+   margin-block-start: -1rem;
+   margin-inline-start: -1rem;
+   border-block-start: 0;
+   background-color: white; */
+   display: block;
+   float: left;
+   width: 35%;
+   padding: 1rem;
+   margin: -1rem 0.5em 0.em -1rem;
+   background-color: white;
+   border: 2px solid black;
+   border-width: 0 1px 1px 0;
+ }
+
+ .punch3 {
+    background-color: 88aabb;
+    margin-block-start: -1rem;
+    margin-inline-end: -1rem;
+    padding: 10px;
+    text-align: right;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    ; 
+ }
+ .banner2 {
+    background-color: white;
+    float: right;
+    display: block;
+    width: 25%;
+    margin-block-end: -1rem;
+    text-align: left;
+    font-size: 140%;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1em;
+    text-indent: -0.5em;
+    color: black;
+    border:  1px solid black;
+    border-width: 0.1rem 0 0.1rem 0.1rem;
+    margin: 0.2em -1rem 0.2em 0.5em;
+ }
+
+ h2 {
+    background-color: #88AABB;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    text-align: right;
+    margin-block-start: 0%;
+ }
+
+ #box2 .pikkukuva-vasen-ylanurkka {
+  margin-block-start: -11px;
+  margin-inline-start: -11px;
+  border: solid black 1px;
+  border-block-start: 0;
+  border-inline-start: 0;
+}
+
+ #box3 .banner1 {
+    margin-block-start: -11px;
+    margin-inline-start: -11px;
+    border: solid black 1px;
+    border-block-start: 0;
+    border-inline-start: 0;
+ }
+
+ /* Tablet-näkymä ja suuremmat näkymät */
+
+ @media only screen and (min-width: 426px) {
+  body {
+    background-color: goldenrod;
+  }
+}
+
+#box3 .banner1 {
+  width: 40rem;
+  float: left;
+  margin-inline-end: 2rem;
+  margin-block-end: 2rem;
+}
