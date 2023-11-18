@@ -7,6 +7,7 @@ html {
     margin: 1rem;
     background-color: darkcyan;
     padding: 10px;
+    font-size: medium;
   }
   
   .header {
@@ -33,6 +34,7 @@ html {
   
   .main {
     background-color: darkorange;
+    height: 57rem;
   }
   
   .aside-1 {
@@ -86,11 +88,11 @@ html {
   
   .some-nav .icon {
     fill: white;
-    width: 3.2rem;
+    width: 2.5rem;
     display: inline-block;
   }
   .some-nav {
-    margin: 1rem -1rem -1rem -1rem;
+    margin: 47rem -1rem -1rem -1rem;
   }
   
   .some-nav ul .facebook {
@@ -104,7 +106,7 @@ html {
   }
   .twitter .icon {
     fill: white;
-    width: 3.2rem;
+    width: 2.5rem;
     display: inline-block;
   }
   li {
@@ -132,7 +134,8 @@ html {
     }
     .main {
       order: 2;
-      flex-basis: 400px; 
+      flex-basis: 50rem;
+      height: 57rem; 
     }
     .aside-2 {
       order: 3;
